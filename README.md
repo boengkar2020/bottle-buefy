@@ -1,4 +1,4 @@
-### Old style boilerplate for bottle framework, mako, vue, anda buefy
+### Old style boilerplate for bottle framework, mako, vue, and buefy
 
 To using this boilerplate, i recommend use virtualenv.
 
