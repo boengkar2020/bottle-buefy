@@ -1,0 +1,6 @@
+bottle
+Mako
+MarkupSafe
+psycopg2-binary
+redis
+pyjwt

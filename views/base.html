@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://unpkg.com/buefy/dist/buefy.min.css">
+  <link href="static/css/loading.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link rel="icon" sizes="128x128" href="static/img/bottle_icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="static/img/bottle_icon.png">
+  <title>Bottle Boilerplate with Vue JS and Mako templating</title>
+</head>
+<body>
+  ${self.body()}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.js"></script>
+  <script src="https://unpkg.com/buefy/dist/buefy.min.js"></script>
+  <%block name="jsscript"/>
+</body>
+</html>
